@@ -1,0 +1,19 @@
+.service-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+.service-image {
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover .service-image {
+  transform: scale(1.1);
+}
